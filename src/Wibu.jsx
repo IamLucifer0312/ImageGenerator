@@ -7,7 +7,7 @@ function Wibu() {
   function getImages() {
     if (images.length >= 33) return;
     for (let i = 1; i <= 33; i++) {
-      const image = `/public/Wibu/image${i}.png`;
+      const image = `/Wibu/image${i}.png`;
       images.push(image);
     }
   }

@@ -7,7 +7,7 @@ function Characters() {
   function getImages() {
     if (images.length >= 29) return;
     for (let i = 1; i <= 29; i++) {
-      const image = `/public/Characters/image${i}.png`;
+      const image = `/Characters/image${i}.png`;
       images.push(image);
     }
   }

@@ -7,7 +7,7 @@ function Movies() {
   function getImages() {
     if (images.length >= 27) return;
     for (let i = 1; i <= 27; i++) {
-      const image = `/public/Movies/image${i}.png`;
+      const image = `/Movies/image${i}.png`;
       images.push(image);
     }
   }

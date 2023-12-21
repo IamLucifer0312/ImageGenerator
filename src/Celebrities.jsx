@@ -7,7 +7,7 @@ function Celebrities() {
   function getImages() {
     if (images.length >= 30) return;
     for (let i = 1; i <= 30; i++) {
-      const image = `/public/Celebrities/image${i}.png`;
+      const image = `/Celebrities/image${i}.png`;
       images.push(image);
     }
   }
